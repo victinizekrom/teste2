@@ -1,0 +1,29 @@
+using System;
+   float A, P, imc;
+class MainClass {
+
+  public static void Main (string[] args) {
+
+    Console.Write("Digite sua nota:");
+            P = float.Parse(Console.ReadLine());
+            if(P<4,9)
+            {
+               Console.WriteLine("Insatisfatório");
+     }
+     else if ((P>4,9 ) && (P < 7))
+            {
+                Console.WriteLine("Regular");
+            }
+            else if ((imc > 6,9) && (imc < 9))
+            {
+                Console.WriteLine("Bom");
+            }
+            else if ((imc > 8,9) && (imc < 11))
+            {
+                Console.WriteLine("Muito bom");
+            }
+            else{
+              Console.WriteLine("Inválido");
+            }
+  }
+} 
